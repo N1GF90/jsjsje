@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+body{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  background-color: black;
+  min-height: 100vh;
+  font-family: 'Open Sans', sans-serif;
+  color: white;
+}
+.input-class {
+  padding: 20%;
+}
+
+/*H2 CSS*/
+h2 {
+    text-align: center;
+} 
+
+footer {
+  position: absolute;
+  bottom: 2%;
+}
+
+form{
+  display: flex;
+  width: 100%;
+}

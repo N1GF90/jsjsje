@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="{{url_for('static', filename='bootstrap.min.css')}}">
+        <link rel="stylesheet" href="{{url_for('static', filename='style.css')}}">
+        <script src="{{url_for('static', filename='bootstrap.min.js')}}"></script>
+    </head>
+    <body>
+        <h2>Download YT Video</h2>
+        <div class="input-group mb-3 input-class">
+        <form action="downloadVideo" method="POST">
+            <input type="text" name="downloadURL" class="form-control" placeholder="Video URL" aria-label="Video URL" aria-describedby="basic-addon2">
+            <div class="input-group-append">
+              <button class="btn btn-outline-secondary" type="submit">Download</button>
+            </div>
+          </div>
+        </form>
+        <footer>
+            <span>YT Video Downloader &copy; Copyright 2021</span>
+        </footer>
+    </body>
+</html>
